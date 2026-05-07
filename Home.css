@@ -1,0 +1,87 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.welcome-section h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.welcome-section p {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.home-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.home-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-card h3 {
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+}
+
+.home-card p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.features-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.features-section h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.features-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
